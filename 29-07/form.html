@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+<body>
+<script>
+var form = document.createElement("form");
+form.action = "/sendTheMail"
+form.method = "GET"
+var br = document.createElement("br");
+var email = document.createElement("input");
+email.setAttribute("type", "text");
+email.setAttribute("name", "mail");
+email.setAttribute("placeholder", "Enter mail");
+form.appendChild(email);
+form.appendChild(br);
+var submit = document.createElement("input");
+submit.setAttribute("type", "submit");
+submit.setAttribute("value", "send the mail");
+form.appendChild(submit);
+form.appendChild(br);
+document.getElementsByTagName("body")[0]
+.appendChild(form);
+</script>
+</body>
+</html>
