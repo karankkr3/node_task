@@ -20,3 +20,6 @@ Read one txt file from that content remove all vowels and write updated content 
 04-08-2021 task
 
 1)Take some student information from user -id -name -marks After taking 1st student’s data, ask the user if you want to continue entering the data or quit and then after display all student’s information.
+
+05-08-2021 task
+Try last task using terminal to take multiple inputs and display the same
