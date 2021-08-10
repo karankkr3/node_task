@@ -11,9 +11,7 @@ Take one email textbox and send mail to that entered email id through node maile
 Apply external css file into html by using npm
 Get local IP address-second.js
 Read one txt file from that content remove all vowels and write updated content in new file-vowel.js,removed.txt
-30-07-2021 task:-
 
-Make a form and validate the following fields in a form Name : Only alphabets should be allowed Mobile number : Only numbers are allowed Entered number must be of 10 digits Email : Email format DOB : Take input type as date and disable all dates after 2002 year till today’s date and also user is not allowed to enter date after 2002 year manually in a box Password : Confirm Password : Must check boh the fields should be equal and if it is not equal immediately should alert “Password not matching” before moving to next field Address : take textarea
 
 03-08-2021 tasks
 
